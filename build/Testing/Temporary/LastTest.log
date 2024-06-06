@@ -1,0 +1,67 @@
+Start testing: Jun 06 15:11 MSK
+----------------------------------------------------------
+1/1 Testing: G26Tests
+1/1 Test: G26Tests
+Command: "/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/G26Tests"
+Directory: /home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build
+"G26Tests" start time: Jun 06 15:11 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from DenseVectorTest
+[ RUN      ] DenseVectorTest.SizeTest
+[       OK ] DenseVectorTest.SizeTest (0 ms)
+[ RUN      ] DenseVectorTest.IndexingTest
+[       OK ] DenseVectorTest.IndexingTest (0 ms)
+[ RUN      ] DenseVectorTest.L2NormTest
+[       OK ] DenseVectorTest.L2NormTest (0 ms)
+[----------] 3 tests from DenseVectorTest (0 ms total)
+
+[----------] 3 tests from DynamicVectorTest
+[ RUN      ] DynamicVectorTest.InitializerListConstructor
+[       OK ] DynamicVectorTest.InitializerListConstructor (0 ms)
+[ RUN      ] DynamicVectorTest.Indexing
+[       OK ] DynamicVectorTest.Indexing (0 ms)
+[ RUN      ] DynamicVectorTest.Iteration
+/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/tests/t.cpp:93: Failure
+Expected equality of these values:
+  elem
+    Which is: "one"
+  std::to_string(i + 1)
+    Which is: "1"
+[  FAILED  ] DynamicVectorTest.Iteration (0 ms)
+[----------] 3 tests from DynamicVectorTest (0 ms total)
+
+[----------] 3 tests from StaticVectorTest
+[ RUN      ] StaticVectorTest.InitializerListConstructor
+[       OK ] StaticVectorTest.InitializerListConstructor (0 ms)
+[ RUN      ] StaticVectorTest.Indexing
+[       OK ] StaticVectorTest.Indexing (0 ms)
+[ RUN      ] StaticVectorTest.Iteration
+/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/tests/t.cpp:124: Failure
+Expected equality of these values:
+  elem
+    Which is: "one"
+  std::to_string(i + 1)
+    Which is: "1"
+[  FAILED  ] StaticVectorTest.Iteration (0 ms)
+[----------] 3 tests from StaticVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] DynamicVectorTest.Iteration
+[  FAILED  ] StaticVectorTest.Iteration
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"G26Tests" end time: Jun 06 15:11 MSK
+"G26Tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 06 15:11 MSK
