@@ -1,0 +1,3 @@
+/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

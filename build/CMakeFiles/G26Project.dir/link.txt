@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/G26Project.dir/Main.cpp.o -o G26Project  -Wl,-rpath,/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build libG26Lib.so 

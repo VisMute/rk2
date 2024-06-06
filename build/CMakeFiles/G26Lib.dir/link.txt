@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libG26Lib.so -o libG26Lib.so CMakeFiles/G26Lib.dir/G26_CRTP_1.cpp.o 
