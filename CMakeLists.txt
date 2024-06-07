@@ -6,7 +6,6 @@ project(G26)
 add_library(G26Lib SHARED
     G26_CRTP_1)
 
-
 add_executable(G26Project
     Main.cpp
 )
@@ -30,7 +29,6 @@ add_executable(G26Tests
 # Линкуем библиотеки Google Test
 target_link_libraries(G26Tests
     PRIVATE
-    G26Lib
     gtest
     gtest_main
 )
