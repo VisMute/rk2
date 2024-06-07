@@ -33,7 +33,7 @@ jobs:
     - name: Run G26Projects Executable
       working-directory: ${{runner.workspace}}/build
       shell: bash
-      run: ./G26Projects # Убедитесь, что здесь указан правильный путь к исполняемому файлу 'G26Projects'
+      run: ./G26Project # Убедитесь, что здесь указан правильный путь к исполняемому файлу 'G26Projects'
 
     # Обновленный шаг для запуска тестов 'G26Tests'
     - name: Run G26Tests
