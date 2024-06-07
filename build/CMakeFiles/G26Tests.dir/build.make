@@ -92,7 +92,6 @@ G26Tests_EXTERNAL_OBJECTS =
 
 G26Tests: CMakeFiles/G26Tests.dir/tests/t.cpp.o
 G26Tests: CMakeFiles/G26Tests.dir/build.make
-G26Tests: libG26Lib.so
 G26Tests: lib/libgtest.a
 G26Tests: lib/libgtest_main.a
 G26Tests: lib/libgtest.a

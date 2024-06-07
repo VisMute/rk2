@@ -187,7 +187,6 @@ CMakeFiles/G26Project.dir/clean:
 # Target rules for target CMakeFiles/G26Tests.dir
 
 # All Build rule for target.
-CMakeFiles/G26Tests.dir/all: CMakeFiles/G26Lib.dir/all
 CMakeFiles/G26Tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/G26Tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/G26Tests.dir/build.make CMakeFiles/G26Tests.dir/depend
@@ -197,7 +196,7 @@ CMakeFiles/G26Tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_
 
 # Build rule for subdir invocation for target.
 CMakeFiles/G26Tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/G26Tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build/CMakeFiles 0
 .PHONY : CMakeFiles/G26Tests.dir/rule

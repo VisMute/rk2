@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/G26Tests.dir/tests/t.cpp.o -o G26Tests  -Wl,-rpath,/home/ubuntupc/Cpp-Software-Design/guidelines/Guideline_26__Use_CRTP_to_Introduce_Static_Type_Categories/CRTP_1/build libG26Lib.so lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 
+/usr/bin/c++ CMakeFiles/G26Tests.dir/tests/t.cpp.o -o G26Tests  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 
