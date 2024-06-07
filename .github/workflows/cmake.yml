@@ -29,10 +29,17 @@ jobs:
       shell: bash
       run: cmake --build . --config $BUILD_TYPE
 
-    - name: Test
+    # Обновленный шаг для запуска исполняемого файла 'G26Projects'
+    - name: Run G26Projects Executable
       working-directory: ${{runner.workspace}}/build
       shell: bash
-      run: ctest -C $BUILD_TYPE
+      run: ./G26Projects # Убедитесь, что здесь указан правильный путь к исполняемому файлу 'G26Projects'
+
+    # Обновленный шаг для запуска тестов 'G26Tests'
+    - name: Run G26Tests
+      working-directory: ${{runner.workspace}}/build
+      shell: bash
+      run: ./G26Tests # Убедитесь, что здесь указан правильный путь к исполняемому файлу тестов 'G26Tests'
 
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
